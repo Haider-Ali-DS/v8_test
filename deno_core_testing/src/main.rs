@@ -1,3 +1,7 @@
-fn main() {
-    println!("Hello, world!");
+mod basic;
+mod fromfile;
+
+fn main(){
+    basic::main();
+    fromfile::main();
 }
